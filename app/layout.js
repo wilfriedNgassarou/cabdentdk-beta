@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <title>Cabinet Dentaire Dr Dzoekm</title>
+        <title>Cabinet Dentaire Dr Dzokem</title>
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Cabinet Dentaire Dr Dzokem" />
