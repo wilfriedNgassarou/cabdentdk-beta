@@ -442,6 +442,7 @@ header nav .btn:hover {
 .service-card p {
   padding: 0 1rem;
   overflow-y: auto;
+  text-align: justify;
 }
 
 #service .service-nagivation {

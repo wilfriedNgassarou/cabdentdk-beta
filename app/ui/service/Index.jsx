@@ -60,17 +60,17 @@ export default function Service() {
                 survenues lors de succion du pouce ou de la langue.
            </p>
         </ServiceCard> */}
-        <ServiceCard index={6} title={"Orthodontie"}>
+        <ServiceCard imgUrl={'/orthodontie.jpg'} index={6} title={"Orthodontie"}>
             <p>
                 Correction des malpositions dentaires (brackets, bagues, aligneurs invisibles) afin d'obtenir un sourire harmonieux et une fonction masticatoire optimale.
             </p>
         </ServiceCard>
-        <ServiceCard index={6} title={"Implantologie"}>
+        <ServiceCard imgUrl={'/implantologie.webp'} index={6} title={"Implantologie"}>
             <p>
               Racine artificielle en titane fixée dans l'os de la mâchoire et qui sert de support à une couronne, un bridge ou une prothèse dentaire mobile en cas d'absence d'une ou de plusieurs dents. 
             </p>
         </ServiceCard>
-        <ServiceCard index={6} title={"Pédodontie"}>
+        <ServiceCard imgUrl={'/pedodontie.png'} index={6} title={"Pédodontie"}>
             <p>
                 Prise en charge des pathologies dentaires chez les enfants d'âge pédiatrique.
             </p>
