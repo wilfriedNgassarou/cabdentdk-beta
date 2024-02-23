@@ -6,27 +6,21 @@ export default function Gallery() {
       <div className="gallery-container">
         <GalleryCard
           imageUrl='/team/team_1.jpg'
-          alt='Dr Dzokem'
-          name='Dr Dzokem'
-          profession='Dr Dzokem'
+          alt='Dr Dzokem Kuete Yvette'
+          name='Dr Dzokem Kuete Yvette'
+          profession='Chirurgien dentiste'
         />
         <GalleryCard
           imageUrl='/team/team_2.jpg'
-          alt='Dr Dzokem'
-          name='Dr Dzokem'
-          profession='Dr Dzokem'
+          alt='Mme Ngo Bassama Anne Yvette'
+          name='Mme Ngo Bassama Anne Yvette'
+          profession='Assistante dentaire'
         />
         <GalleryCard
           imageUrl='/team/team_3.jpg'
-          alt='Dr Dzokem'
-          name='Dr Dzokem'
-          profession='Dr Dzokem'
-        />
-        <GalleryCard
-          imageUrl='/team/team_4.jpg'
-          alt='Dr Dzokem'
-          name='Dr Dzokem'
-          profession='Dr Dzokem'
+          alt='Dr Tabitha Luciane Gomoko A Mouthe'
+          name='Dr Tabitha Luciane Gomoko A Mouthe'
+          profession='Chirurgien dentiste'
         />
       </div>
     </section>

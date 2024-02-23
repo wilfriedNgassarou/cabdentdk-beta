@@ -45,7 +45,7 @@ export default function Appointment () {
   let isSubmit = false ;
 
   async function getUnavailability() {
-    const url = 'http://127.0.0.1:400/get_unavailability' ;
+    const url = 'http://127.0.0.1:4500/api/get_unavailability' ;
     
     try {
       const response = await fetch(url)
@@ -173,7 +173,7 @@ export default function Appointment () {
     
     isSubmit = true ;
 
-    fetch('http://127.0.0.1:400/appointment', {
+    fetch('http://127.0.0.1:4500/api/appointment', {
       
       method: "post",
       body: new URLSearchParams(data)
