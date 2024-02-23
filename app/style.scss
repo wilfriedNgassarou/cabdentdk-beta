@@ -866,11 +866,6 @@ header nav .btn:hover {
   position: relative;
   max-height: 400px;
   overflow: hidden;
-  font-size: 10pt ;
-  
-  @media (min-width: 992px) {
-    font-size: 15pt;
-  }
 
   img {
     width: 100%;
@@ -893,10 +888,13 @@ header nav .btn:hover {
     h1 {
       font-weight: normal;
       padding: 0 1rem;
-
+      font-size: 17pt ;
+  
       @media(min-width: 992px) {
+        font-size: 22pt;
         padding: 0 3rem;
       }
+
     }
   }
 

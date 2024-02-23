@@ -948,12 +948,6 @@ header nav .btn:hover {
   position: relative;
   max-height: 400px;
   overflow: hidden;
-  font-size: 10pt;
-}
-@media (min-width: 992px) {
-  .picture-hero {
-    font-size: 15pt;
-  }
 }
 .picture-hero img {
   width: 100%;
@@ -973,9 +967,11 @@ header nav .btn:hover {
 .picture-hero .text h1 {
   font-weight: normal;
   padding: 0 1rem;
+  font-size: 17pt;
 }
 @media (min-width: 992px) {
   .picture-hero .text h1 {
+    font-size: 22pt;
     padding: 0 3rem;
   }
 }
