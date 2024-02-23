@@ -4,8 +4,13 @@ export default function GalleryCard({ imageUrl, alt, name, profession = 'Dentist
       <img src={imageUrl} alt={alt} />
       <div className="text">
         <h2>
-          { name } <br />
-          { profession }
+          <span>
+            { name } 
+          </span>
+          <br />
+          <span>
+            { profession }
+          </span>
         </h2>
       </div>
     </article>

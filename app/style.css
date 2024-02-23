@@ -442,7 +442,6 @@ header nav .btn:hover {
 .service-card p {
   padding: 0 1rem;
   overflow-y: auto;
-  text-align: justify;
 }
 
 #service .service-nagivation {
@@ -599,7 +598,7 @@ header nav .btn:hover {
   }
 }
 .terms {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .terms .terms-text {
@@ -1044,7 +1043,7 @@ header nav .btn:hover {
   line-height: 1.5;
   font-weight: normal;
 }
-.gallery-container article .text h2::first-line {
+.gallery-container article .text h2 span:first-of-type {
   font-weight: bold;
 }
 
@@ -1121,6 +1120,11 @@ header nav .btn:hover {
 
 option:disabled {
   color: red;
+}
+
+.assurance {
+  margin-top: 15px;
+  font-weight: 300;
 }
 
 
