@@ -345,7 +345,7 @@ export default function Appointment () {
             </div>
           </div>
           <div className="form-control assurance">
-            <span>NB:</span> nous prenons en charge les assurances suivantes: Allianz, Ascoma, Activa, Bicec, Alucam, G.G.A Cameroun, Atlantique Assurances, Waspito, Zenithe, Willis Towers Watson, Bicec, Pro Assur, O.L.E.A, M.S.H, A.R.E.A, SAHAM, Pass 24, Cameroun Assurance Sanitaire, AGC 
+            <span className="underline">NB:</span> Nous prenons en charge les assurances suivantes: Allianz, Ascoma, Activa, G.G.A Cameroun, Atlantique Assurances, Zenithe, Willis Towers Watson, O.L.E.A, A.R.E.A, SAHAM, Pass 24, Cameroun Assurance Sanitaire, AGC 
           </div>
           <Terms checked={ isChecked } onChange={setIsChecked} />
           <div className="form-control center">

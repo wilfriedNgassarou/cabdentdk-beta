@@ -28,13 +28,9 @@ export default function Banner() {
           <article>
             <h2>
               Les ages clés pour une visite chez le dentiste : 
-              <ul style={{display: 'flex', gap: 50}}>
-                <li>3 ans</li>
-                <li>6 ans</li>
-                <li>9 ans</li>
-                <li>12 ans</li>
-                <li>15 ans</li>
-              </ul>
+              <p>
+                3 ans, 6 ans, 9 ans, 12 ans, 15 ans
+              </p>
             </h2>
           </article>
           <article>

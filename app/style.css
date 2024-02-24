@@ -1123,6 +1123,10 @@ option:disabled {
   font-weight: 300;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
